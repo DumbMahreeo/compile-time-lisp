@@ -1,0 +1,13 @@
+[package]
+name = "compile-time-lisp"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Execute lisp code in your rust project at compile time"
+repository = "https://github.com/DumbMahreeo/compile-time-lisp"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+rust_lisp = "0.2.0"
